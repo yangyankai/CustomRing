@@ -1,0 +1,9 @@
+<!-- res/values/attr.xml  -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyCycle">
+        <attr name="CycleColor" format="color"/>
+        <attr name="CycleTitle" format="string"/>
+    </declare-styleable>
+</resources>
