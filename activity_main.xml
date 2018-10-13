@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:my_cycle="http://schemas.android.com/apk/res-auto">
+<!-- my_cycle can be called any other as we like  -->
+<com.example.ykai.app_nul.custom.MyRing
+    android:id="@+id/myring"
+    my_cycle:CycleColor="#afa"
+    my_cycle:CycleTitle="My Title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</RelativeLayout>
